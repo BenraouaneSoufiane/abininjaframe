@@ -1738,6 +1738,16 @@
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
 
+"@oven/bun-linux-x64-baseline@1.1.20":
+  version "1.1.20"
+  resolved "https://registry.npmjs.org/@oven/bun-linux-x64-baseline/-/bun-linux-x64-baseline-1.1.20.tgz"
+  integrity sha512-H1PIzW+Dv6VNNH/yS6we7YD2Hvig3s6zLYnEt+mQok+wJKtjzpjQT1qZly/r6mhkZqHIcM3mRAwXcxgXF7yv7Q==
+
+"@oven/bun-linux-x64@1.1.20":
+  version "1.1.20"
+  resolved "https://registry.npmjs.org/@oven/bun-linux-x64/-/bun-linux-x64-1.1.20.tgz"
+  integrity sha512-8TWvnsWWWX9pZoYZ1GwZX3UwkfsnZYzicxwUdZVf/S0sNM6FBWkC9YqidxUsPva4DLKIi4oON8Ra5DpDwRZWSw==
+
 "@parcel/watcher-linux-x64-glibc@2.4.1":
   version "2.4.1"
   resolved "https://registry.npmjs.org/@parcel/watcher-linux-x64-glibc/-/watcher-linux-x64-glibc-2.4.1.tgz"
@@ -3481,6 +3491,20 @@ bufferutil@^4.0.1, bufferutil@^4.0.8:
   integrity sha512-4T53u4PdgsXqKaIctwF8ifXlRTTmEPJ8iEPWFdGZvcf7sbwYo6FKFEX9eNNAnzFZ7EzJAQ3CJeOtCRA4rDp7Pw==
   dependencies:
     node-gyp-build "^4.3.0"
+
+bun@^1.1.20:
+  version "1.1.20"
+  resolved "https://registry.npmjs.org/bun/-/bun-1.1.20.tgz"
+  integrity sha512-aqLmvaz0/vLUiCrOXtAsf7pCSOS/qXieYDsq8COa3+fIgMK05CjZt9m9r7DC+tjKy7hH8uKSNTapQOr/kX8gIA==
+  optionalDependencies:
+    "@oven/bun-darwin-aarch64" "1.1.20"
+    "@oven/bun-darwin-x64" "1.1.20"
+    "@oven/bun-darwin-x64-baseline" "1.1.20"
+    "@oven/bun-linux-aarch64" "1.1.20"
+    "@oven/bun-linux-x64" "1.1.20"
+    "@oven/bun-linux-x64-baseline" "1.1.20"
+    "@oven/bun-windows-x64" "1.1.20"
+    "@oven/bun-windows-x64-baseline" "1.1.20"
 
 busboy@1.6.0:
   version "1.6.0"

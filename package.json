@@ -13,6 +13,7 @@
     "@scure/base": "^1.1.7",
     "axios": "^1.7.2",
     "browser": "^0.2.6",
+    "bun": "^1.1.20",
     "evm-proxy-detection": "^2.0.1",
     "express": "^4.19.2",
     "isvalidweb3address": "^1.0.3",
