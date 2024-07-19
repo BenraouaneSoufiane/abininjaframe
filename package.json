@@ -1,0 +1,43 @@
+{
+  "name": "basecolors",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@resvg/resvg-js": "^2.6.2",
+    "@scure/base": "^1.1.7",
+    "axios": "^1.7.2",
+    "browser": "^0.2.6",
+    "evm-proxy-detection": "^2.0.1",
+    "express": "^4.19.2",
+    "isvalidweb3address": "^1.0.3",
+    "next": "14.2.5",
+    "puppeteer": "^22.13.1",
+    "puppeteer-core": "^22.13.1",
+    "react": "^18",
+    "react-dom": "^18",
+    "resvg": "^1.6.4",
+    "satori": "^0.10.14",
+    "ts-node": "^10.9.2",
+    "validate-ethereum-address": "^1.0.1",
+    "viem": "^2.17.5",
+    "wagmi": "^2.11.2",
+    "web3": "^4.11.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.5",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1",
+    "tsx": "^4.16.2",
+    "typescript": "^5"
+  }
+}
